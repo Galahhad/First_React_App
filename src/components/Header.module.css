@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.img_wrap {
+  width: 169px;
+  cursor: pointer;
+}
+.img {
+  width: 100%;
+}
+.list {
+  width: 324px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #003399;
+}
+.list li {
+  cursor: pointer;
+}
+.list li:hover {
+  text-decoration: underline;
+}
+.list li:active {
+  color: crimson;
+}
+a {
+  color: #003399;
+  text-decoration: none;
+}

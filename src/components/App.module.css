@@ -1,0 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+.supreme {
+  box-sizing: border-box;
+  max-width: 770px;
+  margin: auto;
+  font-family: "Gilroy", sans-serif;
+}
+::selection {
+  background-color: #F27C0F;
+  color: white;
+}

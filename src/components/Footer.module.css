@@ -1,0 +1,41 @@
+.wrap {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  margin-top: 157px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+.img_wrap {
+  width: 98px;
+  cursor: pointer;
+}
+.img_wrap img {
+  width: 100%;
+}
+.list {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 500;
+  width: 369px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.list li {
+  cursor: pointer;
+}
+.intocode_text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  cursor: pointer;
+}
+.intocode_text:hover, .list li:hover {
+  text-decoration: underline;
+}
+.intocode_text:active, .list li:active {
+  color: crimson;
+}
